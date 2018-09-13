@@ -35,9 +35,12 @@ Feature: API status
 
 # How does it work?
 
-- status.feature is a test file. A per proxy test file with complete coverage is typical.
+- status.feature is a test file. A per proxy test file with complete coverage is typical. The file is written in BDD format.
+- Given
+- When
+- Then
 
-- apickli-gherkin.js is where it translates from the status.feature file given, when, then to javascript functions. For each statement in status.feature you will need the javascript function in apickli-gherkin.js. If it's missing the statement in status.feature will not work correctly, syntax has to match exactly.
+- apickli-gherkin.js is where it translates from the status.feature file given, when, then to javascript functions. For each statement in status.feature you will need the javascript function in apickli-gherkin.js. If the function is missing in apickli-gherkin in status.feature will not work correctly, syntax has to match exactly.
 
 - init.js is where it builds the call to test the proxy, it's building the URL based on the test-config.json
 
