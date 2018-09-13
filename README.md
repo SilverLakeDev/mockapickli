@@ -1,4 +1,4 @@
-# Apickli using an eval Apigee account and calling an API mock proxy
+# Apickli using an eval Apigee account and calling a API mock proxy
 
 # How do I set it up on a Mac?
 
