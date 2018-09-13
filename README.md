@@ -3,9 +3,13 @@
 # How do I set it up on a Mac?
 
 $mkdir calendar
+
 $sudo git clone https://github.com/jachansen1978/mockapickli.git
+
 $cd mockapickli
+
 $sudo npm install
+
 $./node_modules/.bin/cucumber-js test/integration/features/status.feature
 
 The above command is using cucumber to start a test in test/integration/features/status.feature.
