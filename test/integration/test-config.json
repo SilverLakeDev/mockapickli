@@ -1,0 +1,6 @@
+{
+	"demoApi": {
+		"domain": "jacobhansen-eval-test.apigee.net",
+		"basepath": "/calendar-types"
+	}
+}
