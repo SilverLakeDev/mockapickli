@@ -13,7 +13,7 @@ $sudo npm install
 $./node_modules/.bin/cucumber-js test/integration/features/status.feature
 
 The above command is using cucumber to start a test in test/integration/features/status.feature.
-status.feature contains a test that uses BDD format to write a test. 
+The status.feature contains a test that uses BDD format to write a test. 
 
 # What should I see when the test runs?
 
